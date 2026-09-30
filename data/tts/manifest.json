@@ -1,0 +1,123 @@
+[
+  {
+    "item_id": "TTS_NUM_01",
+    "file_path": "data/tts/TTS_NUM_01.wav",
+    "category": "Numbers & Currency",
+    "input_text": "Your EMI of \u20b915,450 is due on 25/11/2026. Please pay via UPI.",
+    "spoken_reference": "Your E M I of fifteen thousand four hundred and fifty rupees is due on twenty fifth of November twenty twenty six. Please pay via U P I.",
+    "language_locale": "en-IN",
+    "sample_rate": 16000,
+    "duration_sec": 9.54,
+    "notes": "Indian currency symbol, comma format, date formatting, and acronyms."
+  },
+  {
+    "item_id": "TTS_NUM_02",
+    "file_path": "data/tts/TTS_NUM_02.wav",
+    "category": "Numbers & Currency",
+    "input_text": "A transfer of Rs 2.5 crore was approved for account 9876543210.",
+    "spoken_reference": "A transfer of two point five crore rupees was approved for account nine eight seven six five four three two one zero.",
+    "language_locale": "en-IN",
+    "sample_rate": 16000,
+    "duration_sec": 7.38,
+    "notes": "Crore denomination and 10-digit telephony digit grouping."
+  },
+  {
+    "item_id": "TTS_ACR_01",
+    "file_path": "data/tts/TTS_ACR_01.wav",
+    "category": "Acronyms & Abbreviations",
+    "input_text": "As per RBI guidelines, complete your KYC via OTP verification before your NEFT transfer.",
+    "spoken_reference": "As per R B I guidelines, complete your K Y C via O T P verification before your N E F T transfer.",
+    "language_locale": "en-IN",
+    "sample_rate": 16000,
+    "duration_sec": 8.03,
+    "notes": "Regulatory acronyms should be letter-spelled (initialisms), not mispronounced as pseudo-words."
+  },
+  {
+    "item_id": "TTS_ACR_02",
+    "file_path": "data/tts/TTS_ACR_02.wav",
+    "category": "Acronyms & Abbreviations",
+    "input_text": "Dr. Sharma at AIIMS confirmed the appointment at 4:30 PM on 3rd Ave.",
+    "spoken_reference": "Doctor Sharma at A I I M S confirmed the appointment at four thirty P M on third Avenue.",
+    "language_locale": "en-IN",
+    "sample_rate": 16000,
+    "duration_sec": 5.93,
+    "notes": "Title Dr, acronym AIIMS, time representation, and street abbreviation Ave."
+  },
+  {
+    "item_id": "TTS_CSW_01",
+    "file_path": "data/tts/TTS_CSW_01.wav",
+    "category": "Multilingual & Indic Names",
+    "input_text": "Namaste Shanmugapriya ji, aapka loan application successfully approve ho gaya hai.",
+    "spoken_reference": "Namaste Shanmugapriya ji, aapka loan application successfully approve ho gaya hai.",
+    "language_locale": "hi-en-mixed",
+    "sample_rate": 16000,
+    "duration_sec": 6.26,
+    "notes": "Dravidian name Shanmugapriya with Hindi honorific ji and Hinglish loanwords."
+  },
+  {
+    "item_id": "TTS_CSW_02",
+    "file_path": "data/tts/TTS_CSW_02.wav",
+    "category": "Multilingual & Indic Names",
+    "input_text": "The shipment has reached Thiruvananthapuram hub and will depart for Visakhapatnam shortly.",
+    "spoken_reference": "The shipment has reached Thiruvananthapuram hub and will depart for Visakhapatnam shortly.",
+    "language_locale": "en-IN",
+    "sample_rate": 16000,
+    "duration_sec": 5.44,
+    "notes": "Complex multisyllabic Indian geographical toponyms."
+  },
+  {
+    "item_id": "TTS_HET_01",
+    "file_path": "data/tts/TTS_HET_01.wav",
+    "category": "Heteronyms & Ambiguity",
+    "input_text": "Please read the terms carefully; yesterday the manager read the exact same clause.",
+    "spoken_reference": "Please read the terms carefully; yesterday the manager read the exact same clause.",
+    "language_locale": "en-IN",
+    "sample_rate": 16000,
+    "duration_sec": 5.58,
+    "notes": "Syntactic heteronym read (present tense /ri:d/ vs past tense /r\u025bd/)."
+  },
+  {
+    "item_id": "TTS_HET_02",
+    "file_path": "data/tts/TTS_HET_02.wav",
+    "category": "Heteronyms & Ambiguity",
+    "input_text": "Our representative will lead you to the room containing lead protective equipment.",
+    "spoken_reference": "Our representative will lead you to the room containing lead protective equipment.",
+    "language_locale": "en-IN",
+    "sample_rate": 16000,
+    "duration_sec": 4.56,
+    "notes": "Heteronym lead (verb /li:d/ vs noun /l\u025bd/)."
+  },
+  {
+    "item_id": "TTS_DISC_01",
+    "file_path": "data/tts/TTS_DISC_01.wav",
+    "category": "Long-form Disclosures",
+    "input_text": "This call is recorded for quality and compliance purposes. By proceeding with this transaction, you agree to the deduction of \u20b93,499 from your registered savings account towards the annual maintenance contract. To confirm press one, or say confirm.",
+    "spoken_reference": "This call is recorded for quality and compliance purposes. By proceeding with this transaction, you agree to the deduction of three thousand four hundred and ninety nine rupees from your registered savings account towards the annual maintenance contract. To confirm press one, or say confirm.",
+    "language_locale": "en-IN",
+    "sample_rate": 16000,
+    "duration_sec": 18.53,
+    "notes": "Standard 40-word enterprise compliance disclosure testing prosodic naturalness, breath grouping, and sustained cadence."
+  },
+  {
+    "item_id": "TTS_PRO_01",
+    "file_path": "data/tts/TTS_PRO_01.wav",
+    "category": "Prosody & Question Intonation",
+    "input_text": "Did you receive your six-digit OTP on your mobile phone?",
+    "spoken_reference": "Did you receive your six-digit O T P on your mobile phone?",
+    "language_locale": "en-IN",
+    "sample_rate": 16000,
+    "duration_sec": 4.1,
+    "notes": "Rising terminal pitch contour on interrogative sentence structure."
+  },
+  {
+    "item_id": "TTS_NUM_03",
+    "file_path": "data/tts/TTS_NUM_03.wav",
+    "category": "Numbers & Currency",
+    "input_text": "Your credit card interest rate has been reduced by 1.25% with zero penalty.",
+    "spoken_reference": "Your credit card interest rate has been reduced by one point two five percent with zero penalty.",
+    "language_locale": "en-IN",
+    "sample_rate": 16000,
+    "duration_sec": 5.99,
+    "notes": "Decimal points and percentage symbol verbalization."
+  }
+]

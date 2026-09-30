@@ -1,0 +1,200 @@
+[
+  {
+    "clip_id": "ASR_CLN_01",
+    "file_path": "data/asr/ASR_CLN_01.wav",
+    "category": "Clean Baseline",
+    "reference_transcript": "I would like to activate international roaming on my mobile number",
+    "acoustic_condition": "clean_16k",
+    "accent_or_locale": "en-IN-Standard",
+    "sample_rate": 16000,
+    "duration_sec": 4.22,
+    "notes": "Standard telecom service request, wideband clean studio quality."
+  },
+  {
+    "clip_id": "ASR_CLN_02",
+    "file_path": "data/asr/ASR_CLN_02.wav",
+    "category": "Clean Baseline",
+    "reference_transcript": "Please send my statement to my registered email address",
+    "acoustic_condition": "clean_16k",
+    "accent_or_locale": "en-IN-Standard",
+    "sample_rate": 16000,
+    "duration_sec": 3.94,
+    "notes": "Standard banking self-service request."
+  },
+  {
+    "clip_id": "ASR_NSE_01",
+    "file_path": "data/asr/ASR_NSE_01.wav",
+    "category": "Telephony & Noise",
+    "reference_transcript": "My internet connection has been completely down since morning",
+    "acoustic_condition": "telephony_8k_g711",
+    "accent_or_locale": "en-IN-North",
+    "sample_rate": 8000,
+    "duration_sec": 3.43,
+    "notes": "Narrowband 8kHz telephony audio with G.711 bandpass filtering and compression."
+  },
+  {
+    "clip_id": "ASR_NSE_02",
+    "file_path": "data/asr/ASR_NSE_02.wav",
+    "category": "Telephony & Noise",
+    "reference_transcript": "I am calling from the metro station can you please repeat the amount",
+    "acoustic_condition": "noisy_street_snr10",
+    "accent_or_locale": "en-IN-South",
+    "sample_rate": 8000,
+    "duration_sec": 4.86,
+    "notes": "Acoustic commuter background noise (~10dB SNR) on 8kHz telephony line."
+  },
+  {
+    "clip_id": "ASR_ACC_01",
+    "file_path": "data/asr/ASR_ACC_01.wav",
+    "category": "Regional Accents",
+    "reference_transcript": "Kindly update my communication address in your central system",
+    "acoustic_condition": "clean_16k",
+    "accent_or_locale": "en-IN-South",
+    "sample_rate": 16000,
+    "duration_sec": 5.72,
+    "notes": "South Indian cadence with retroflex consonant emphasis."
+  },
+  {
+    "clip_id": "ASR_ACC_02",
+    "file_path": "data/asr/ASR_ACC_02.wav",
+    "category": "Regional Accents",
+    "reference_transcript": "The transaction was declined at the merchant terminal yesterday",
+    "acoustic_condition": "clean_16k",
+    "accent_or_locale": "en-IN-North",
+    "sample_rate": 16000,
+    "duration_sec": 4.09,
+    "notes": "North Indian accent stress patterns."
+  },
+  {
+    "clip_id": "ASR_CSW_01",
+    "file_path": "data/asr/ASR_CSW_01.wav",
+    "category": "Code-Switching",
+    "reference_transcript": "Sir mera credit card block ho gaya hai please unblock kar dijiye",
+    "acoustic_condition": "telephony_8k_g711",
+    "accent_or_locale": "hi-en-CodeSwitched",
+    "sample_rate": 8000,
+    "duration_sec": 4.75,
+    "notes": "Hinglish banking distress call. Intra-sentential code switching."
+  },
+  {
+    "clip_id": "ASR_CSW_02",
+    "file_path": "data/asr/ASR_CSW_02.wav",
+    "category": "Code-Switching",
+    "reference_transcript": "Aapka customer care executive call disconnect kar diya",
+    "acoustic_condition": "clean_16k",
+    "accent_or_locale": "hi-en-CodeSwitched",
+    "sample_rate": 16000,
+    "duration_sec": 3.92,
+    "notes": "Mixed Hindi-English sentence structure with standard loanwords."
+  },
+  {
+    "clip_id": "ASR_NUM_01",
+    "file_path": "data/asr/ASR_NUM_01.wav",
+    "category": "Numeric & Entities",
+    "reference_transcript": "The one time password is four zero nine two one eight",
+    "acoustic_condition": "clean_16k",
+    "accent_or_locale": "en-IN-Standard",
+    "sample_rate": 16000,
+    "duration_sec": 7.04,
+    "notes": "6-digit authentication OTP. Zero-error tolerance required in BFSI."
+  },
+  {
+    "clip_id": "ASR_NUM_02",
+    "file_path": "data/asr/ASR_NUM_02.wav",
+    "category": "Numeric & Entities",
+    "reference_transcript": "My outstanding balance is fifty four thousand seven hundred and eighty rupees",
+    "acoustic_condition": "telephony_8k_g711",
+    "accent_or_locale": "en-IN-Standard",
+    "sample_rate": 8000,
+    "duration_sec": 5.38,
+    "notes": "Financial figures in Indian numbering context."
+  },
+  {
+    "clip_id": "ASR_NUM_03",
+    "file_path": "data/asr/ASR_NUM_03.wav",
+    "category": "Numeric & Entities",
+    "reference_transcript": "Transfer twelve lakh fifty thousand rupees to account ending in six eight four zero",
+    "acoustic_condition": "telephony_8k_g711",
+    "accent_or_locale": "en-IN-North",
+    "sample_rate": 8000,
+    "duration_sec": 7.48,
+    "notes": "Lakh denomination and alphanumeric account entity."
+  },
+  {
+    "clip_id": "ASR_DOM_01",
+    "file_path": "data/asr/ASR_DOM_01.wav",
+    "category": "Domain Lexicon (BFSI)",
+    "reference_transcript": "Can you check if my loan restructuring and moratorium request was processed",
+    "acoustic_condition": "clean_16k",
+    "accent_or_locale": "en-IN-Standard",
+    "sample_rate": 16000,
+    "duration_sec": 5.1,
+    "notes": "High-perplexity banking domain terms: restructuring, moratorium."
+  },
+  {
+    "clip_id": "ASR_DOM_02",
+    "file_path": "data/asr/ASR_DOM_02.wav",
+    "category": "Domain Lexicon (BFSI)",
+    "reference_transcript": "I want to dispute an unauthorized chargeback on my saving account",
+    "acoustic_condition": "telephony_8k_g711",
+    "accent_or_locale": "en-IN-South",
+    "sample_rate": 8000,
+    "duration_sec": 5.12,
+    "notes": "Regulatory dispute keywords: dispute, unauthorized chargeback."
+  },
+  {
+    "clip_id": "ASR_DUR_01",
+    "file_path": "data/asr/ASR_DUR_01.wav",
+    "category": "Utterance Dynamics",
+    "reference_transcript": "Yes",
+    "acoustic_condition": "telephony_8k_g711",
+    "accent_or_locale": "en-IN-Standard",
+    "sample_rate": 8000,
+    "duration_sec": 1.27,
+    "notes": "Single-word affirmative micro-utterance (<0.8s) testing endpointing & VAD."
+  },
+  {
+    "clip_id": "ASR_DUR_02",
+    "file_path": "data/asr/ASR_DUR_02.wav",
+    "category": "Utterance Dynamics",
+    "reference_transcript": "Haan theek hai",
+    "acoustic_condition": "telephony_8k_g711",
+    "accent_or_locale": "hi-IN",
+    "sample_rate": 8000,
+    "duration_sec": 1.65,
+    "notes": "Conversational confirmation token in Hindi."
+  },
+  {
+    "clip_id": "ASR_DUR_03",
+    "file_path": "data/asr/ASR_DUR_03.wav",
+    "category": "Utterance Dynamics",
+    "reference_transcript": "I wanted to know if the foreclosure charges mentioned in schedule four section B will still apply if I settle the entire principal balance before the upcoming financial quarter",
+    "acoustic_condition": "clean_16k",
+    "accent_or_locale": "en-IN-Standard",
+    "sample_rate": 16000,
+    "duration_sec": 10.16,
+    "notes": "Long-form multi-clause compound query (>10s) testing context window retention."
+  },
+  {
+    "clip_id": "ASR_CSW_03",
+    "file_path": "data/asr/ASR_CSW_03.wav",
+    "category": "Code-Switching",
+    "reference_transcript": "Sir unga credit card EMI statement send pannunga please",
+    "acoustic_condition": "telephony_8k_g711",
+    "accent_or_locale": "ta-en-CodeSwitched",
+    "sample_rate": 8000,
+    "duration_sec": 4.96,
+    "notes": "Tamil-English (Tanglish) code-switched banking service request."
+  },
+  {
+    "clip_id": "ASR_DIS_01",
+    "file_path": "data/asr/ASR_DIS_01.wav",
+    "category": "Disfluency & Fillers",
+    "reference_transcript": "Um wait my registered phone number is uh nine eight seven six five",
+    "acoustic_condition": "clean_16k",
+    "accent_or_locale": "en-IN-Standard",
+    "sample_rate": 16000,
+    "duration_sec": 5.55,
+    "notes": "Spontaneous speech with conversational fillers (um, uh) and hesitation pause."
+  }
+]
